@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/header.css">
     <title>Home</title>
@@ -23,7 +24,7 @@
         <a href="#" class="brand-logo right">
           <img src="./Img/Logo-06.png" alt="MelissaShieldsLogo" style="width: 80px;">
         </a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <ul id="nav-mobile" class="left hide-on-small-only">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Current Listings</a></li>
@@ -31,10 +32,32 @@
           <li><a href="#">Sold Properties</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Resources</a></li>
-          <hr class="hide-on-med-and-down">
+          <hr class="hide-on-down-only">
         </ul>
       </div>
-    </nav>
+<!-- This is for mobile Hamburger -->
+
+          <ul id="nav-mobile" class="left hide-on-med-and-up">
+            <i class="material-icons open-ham">clear_all</i>
+            <i class="material-icons close-ham">close</i>
+          </ul>
+          
+
+            <ul class="left hide-on-med-and-up mobile-nav-container">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Current Listings</a></li>
+              <li><a href="#">Featured Areas</a></li>
+              <li><a href="#">Sold Properties</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Resources</a></li> 
+            </ul>
+
+      </nav>
+<!-- Streamline social impact initiaves  -->
+
+
+
       <div class="header-logo" data-aos="fade-in" data-aos-delay="800" data-aos-duration="3000" data-aos-easing="ease-in-out">
         <img src="./Img/Logo(WhiteL)-08.png" alt="MelissaShieldsLogo" style="width: 300px;">
       </div>
@@ -43,9 +66,8 @@
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
+      <script src="./scripts/header.js"></script>
+ 
   </body>
 </html>
 </html>
