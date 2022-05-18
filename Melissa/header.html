@@ -4,17 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/slide.css">
+    <script src="./scripts/slide.js" defer></script>
     <title>Home</title>
     <!-- Compiled and minified CSS -->
-   
-
-
+  
   </head>
   <body>
-    <section>
+    <!-- Responsive header section -->
+    <header class="header-section">
      <div class="v-container">
        <video src="./Videos/pexels-kindel-media-7578540.mp4" autoplay muted loop>
        </video>
@@ -38,7 +41,7 @@
 <!-- This is for mobile Hamburger -->
 
           <ul id="nav-mobile" class="left hide-on-med-and-up">
-            <i class="material-icons open-ham">clear_all</i>
+           <img class="open-ham" src="./Img/menu-01.png" alt="Hamburger_menu" style="width: 30px; margin-top: 1rem;">
             <i class="material-icons close-ham">close</i>
           </ul>
           
@@ -54,20 +57,192 @@
             </ul>
 
       </nav>
-<!-- Streamline social impact initiaves  -->
-
-
-
       <div class="header-logo" data-aos="fade-in" data-aos-delay="800" data-aos-duration="3000" data-aos-easing="ease-in-out">
         <img src="./Img/Logo(WhiteL)-08.png" alt="MelissaShieldsLogo" style="width: 300px;">
       </div>
 
+    </header>
+
+    <!-- services section -->
+    <section class="services-content">
+      <!-- Services -->
+      <div class="services">
+        <div class="services-text">
+          <div class="broker z-depth-5">
+            <i class="large material-icons">home</i>
+            <h6>Full brokerage</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis officia soluta necessitatibus maxime corporis placeat numquam sint harum alias temporibus.
+            </p>
+          </div>
+
+          <div class="listing-agent z-depth-5">
+            <i class="large material-icons">account_balance</i>
+            <h6>Listing Agent</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis officia soluta necessitatibus maxime corporis placeat numquam sint harum alias temporibus.
+            </p>
+          </div>
+
+            <div class="seller-agent z-depth-5">
+              <i class="large material-icons">nature_people</i>
+              <h6>Buyer's Agent</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis officia soluta necessitatibus maxime corporis placeat numquam sint harum alias temporibus.
+              </p>
+            </div>
+        </div>
+      </div>
+
     </section>
-      <!-- Compiled and minified JavaScript -->
+
+    <!-- Slider -->
+
+    <section aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <i class=" material-icons carousel-button next" data-carousel-button="next">chevron_right</i>
+        <i class=" material-icons carousel-button prev" data-carousel-button="prev">chevron_left</i>
+        <ul data-slides>
+          <li class="slide" data-active>
+          <div class="overlay">
+            <h4>Featured Properties</h4>
+            <a class="waves-effect waves-light center btn"> Learn more</a>
+          </div>
+            <img src="./Img/slider/pexels-curtis-adams-3935346.jpg" alt="">
+          </li>
+
+          <li class="slide">
+            <div class="overlay">
+              <h4>Featured Properties</h4>
+              <a class="waves-effect waves-light center btn"> Learn more</a>
+            </div>
+              <img src="./Img/slider/pexels-pixabay-259588.jpg" alt="">
+            
+          </li>
+
+          <li class="slide">
+            <div class="overlay">
+              <h4>Featured Properties</h4>
+              <a class="waves-effect waves-light center btn"> Learn more</a>
+            </div>
+            
+            <img src="./Img/slider/pexels-pixabay-280229.jpg" alt="">
+           
+
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Featured Areas -->
+   <section class="featured-areas" style="padding: 5rem ;">
+    <div class="featured-cards" style="display:flex ; justify-content: center; gap: 3rem;"> 
+     
+      <div class="card-items">
+       
+        <img class="img z-depth-5" src="./Img/slider/pexels-pixabay-259588.jpg" alt="">
+        <div class="overlay-img">
+          <div class="text">Ravalli County</div>
+        </div>
+      </div>
+
+      <div class="card-items">
+        <img class="img z-depth-5" src="./Img/slider/pexels-binyamin-mellish-1396122 (2).jpg" alt="">
+        <div class="overlay-img">
+          <div class="text">Missoula County</div>
+        </div>
+      </div>
+
+      <div class="card-items">
+
+        <img class="img z-depth-5" src="./Img/slider/pexels-curtis-adams-3935346.jpg" alt="">
+        <div class="overlay-img">
+          <div class="text">Flathead County</div>
+        </div>
+      </div>
+
+      <div class="card-items">
+          <img class="img z-depth-5" src="./Img/slider/pexels-binyamin-mellish-1396122 (2).jpg" alt="" >
+          <div class="overlay-img">
+            <div class="text">Mineral County</div>
+          </div>
+        </div>
+       
+      </div>
+
+    </div> 
+   </section>
+
+
+   <section aria-label="Newest Photos">
+    <div class="carousel reviews" data-carousel>
+      <i class=" material-icons carousel-button next" data-carousel-button="next">chevron_right</i>
+      <i class=" material-icons carousel-button prev" data-carousel-button="prev">chevron_left</i>
+      <ul data-slides>
+
+        <li class="slide" data-active>
+        <div class="review-overlay">
+          <h4> Jesicca Bain </h4>
+          <p>If you are looking a realtor who knows the area and will spend the time finding the perfect place to fit your needs, Melissa is definitely the one to call. </p>
+
+          <img class="review-img" src="./Img/google-plus-g2-01.png" alt="google-plus-g2">
+        </div>
+        </li>
+
+        <li class="slide">
+          <div class="review-overlay">
+            <h4>Wendi Fawns</h4>
+            <p>Her ability to find and show the property to potential buyers was excellent and her ability to market the property helped make the sale of the property go smoothly in a timely manner.  I recommend her without hesitation.
+            </p>
+          <img class="review-img" src="./Img/google-plus-g2-01.png" alt="google-plus-g2">
+
+          </div>
+        </li>
+
+        <li class="slide">
+          <div class="review-overlay">
+            <h4>Nicole Rainwater</h4>
+            <p> Melissa was so helpful when buying our first home. She made sure to listen to our needs and always kept our best interest in mind. I really felt that she had our backs throughout the entire process and was so generous with her time and finances.</p>
+            <img class="review-img" src="./Img/google-plus-g2-01.png" alt="google-plus-g2">
+
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+
+  </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="./scripts/header.js"></script>
- 
+     <script> M.AutoInit();</script> 
   </body>
 </html>
-</html>
+
+
+      <!-- Briefly about Melissa
+      <div class="about col s12">
+        <div class="col s6 about-text">
+
+          <div class="mel-summary">
+           <div class="mel-img">
+            <img src="./Img/Melissa.jpeg" alt="Melissa Shields" style="width: 400px;" >
+           </div>
+          <div class="mel-bio">
+            <div class="mel-bio-header">
+              <h4>Melissa Shields</h4>
+            </div>
+            <div class="mel-bio-about">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quis repudiandae quam quasi maiores voluptatem ad. Pariatur facere ducimus saepe at, beatae in necessitatibus possimus distinctio dolorem nulla. A, ad. Non odio libero tenetur molestiae inventore ratione, alias id expedita excepturi natus, culpa fugiat doloremque ipsa! Veniam fuga nemo reprehenderit.
+              </p>
+             </div>
+          </div>
+          </div>
+        </div>
+      </div> -->

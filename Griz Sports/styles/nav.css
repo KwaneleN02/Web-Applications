@@ -1,0 +1,105 @@
+.mobile-nav-container
+{
+    position: absolute;
+    top: 0;
+    background-color: rgba(75, 1, 1, 0.479);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    display: none;
+}
+
+.uofm
+{
+    border: 2px solid white;
+}
+
+.mobile-nav-container a
+{
+    font-size: 20px;
+}
+
+#nav-mobile .open-ham
+{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 2;
+    /* display: none; */
+}
+
+#nav-mobile .close-ham
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 2;
+}
+
+/* Acknowledgement of the Salish and Kalispel */
+
+.nav-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.nav-wrapper .right
+{
+    position: absolute;
+    right: 0;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    color: white;
+}
+
+.logo img
+{
+    width: 200px;
+}
+
+/* Hover effect */
+li a 
+{
+    position: relative;
+    height: 3.5rem;
+}
+
+ li a:hover::after
+{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3em;
+    background-color: none;
+    transform: scale(1, 1);
+}
+nav ul a:hover
+{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+li a::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: .175rem;
+    background-color: #570505; 
+    bottom: 0;
+    left: 0;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}

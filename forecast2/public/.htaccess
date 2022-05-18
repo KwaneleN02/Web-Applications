@@ -1,0 +1,6 @@
+    Options -Multiviews
+    RewriteEngine On
+    RewriteBase /forecast2/public
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ./forecast2/public/index.php [L]

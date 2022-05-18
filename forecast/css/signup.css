@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form
+{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 2rem;
+}
+
+form > div
+{
+    width: 50%;
+    border-radius: 5px;
+}
+
+form > input
+{
+    padding: 0;
+}

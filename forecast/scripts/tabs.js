@@ -1,0 +1,5 @@
+$(function()
+{
+  $('.tab-items').tabs();
+});
+

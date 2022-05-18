@@ -6,16 +6,16 @@ let closeHam = document.querySelector('.close-ham');
 let logo = document.querySelector('.header-logo');
 //Mobile Nav Container
 let mobileNavContainer = document.querySelector('.mobile-nav-container');
- 
 
 //Event Listeners here
+
+// Hamburger Buttons
 openHam.addEventListener('click', openNav);
 closeHam.addEventListener('click', closeNav);
 
 //Functions here
 
-
-//This is a openNav function
+//This is a openNav
 function openNav()
 {
   if (openHam)
@@ -39,22 +39,6 @@ function closeNav()
 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //AOS initialize
   AOS.init();

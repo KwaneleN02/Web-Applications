@@ -5,3 +5,44 @@
     box-sizing: border-box;
 }
 
+header
+{
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-nav-container ul
+{
+    position: absolute;
+    top: 0;
+    background-color: rgba(75, 1, 1, 0.479);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+/* Acknowledgement of the Salish and Kalispel */
+
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    color: white;
+}
+
+.logo img
+{
+    width: 200px;
+}
+
