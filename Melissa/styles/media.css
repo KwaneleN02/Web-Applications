@@ -1,6 +1,11 @@
 @media screen and (min-width: 280px) and (max-width: 600px)
 {
 
+    #nav-mobile, .mobile-nav-container
+    {
+        position: fixed;
+    }
+
     .services-content
     {
         padding: 20px;
