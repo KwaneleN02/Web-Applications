@@ -4,6 +4,7 @@
     #nav-mobile, .mobile-nav-container
     {
         position: fixed;
+        background-color: rgba(0, 0, 0, 0.972);
     }
 
     .services-content
