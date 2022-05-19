@@ -107,7 +107,34 @@
     right: -1rem !important;
   }
 
+  .footer-links
+  {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 10px;
+      width: 100%;
+      padding-bottom: 20px;
+      align-items: center;
+  }
 
+  .email
+  {
+      margin-top: 3rem;
+  }
 
+  .social-links
+  {
+      display: flex;
+      margin-bottom: 2rem;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .footer-logo
+  {
+    width: 100%; 
+  }
 
 }

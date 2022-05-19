@@ -4,12 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    overflow-x: hidden;
+}
 
 a:link { text-decoration: none; }
 
 .showcase-container 
 {
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -56,12 +60,18 @@ nav
     position: absolute;
     top: 0;
 }
+
+
 #nav-mobile
 {
     z-index: 3;
     position: absolute;
     top: 1px;
-    left: 10px; 
+    left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
 }
 #nav-mobile .open-ham
 {
@@ -309,17 +319,83 @@ li a::after
 
 .review-img
 {
-    width: 100px;
+    width: 50px;
+    margin-top: 3rem;
 }
 
 
+footer
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: auto;
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+}
 
+.footer-divider
+{
+    display: flex;
+    justify-content: center;
+    background-color: #ff8f00;
+    color: black;
+    width: 100%;
+    margin-bottom: .5rem;
+}
 
+.divider 
+{
+    margin-bottom: 1rem;
+   background-color: #d87a00;
+}
 
+.footer-nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
 
+.footer-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 20px;
+    height: 100%;
+    align-items: center;
+}
 
+.footer-logo
+{
+    margin-top: 20px;
+}
+.left, .right, .email
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
 
+.social-links
+{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.social-img
+{
+    width: 20px;
+}
 
 
 
