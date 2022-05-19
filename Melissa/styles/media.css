@@ -118,6 +118,11 @@
       align-items: center;
   }
 
+  .right > li, .left > li
+  {
+      border: 2px solid white;
+      text-align: center;
+  }
   .email
   {
       margin-top: 3rem;
