@@ -1,0 +1,143 @@
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+    background-image: url(../Img/about/crew.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 89vh;
+}
+
+nav
+{
+    background-color: #001836b1;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* H1 in the header */
+.about-header
+{
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* body */
+
+/* About Melissa */
+
+.about-melissa
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/* Bio-Into */
+
+.bio-intro
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    background-color: #b1b0af00;
+    height: 40%; 
+}
+.bio-intro strong
+{
+    border-bottom: 6px dotted #ff910089;
+    font-size: 30px;
+    margin-top: auto;
+    text-align: center;
+    font-weight: 900;
+    font-kerning:auto;
+}
+.bio-intro .glad
+{
+   font-size: 16px;
+   font-weight: 700;
+   text-align: center; 
+}
+/* Bio intro split */
+.split
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 3rem;
+}
+
+.split p
+{
+    width: 30%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* Meet Melissa H2 */
+
+.meet-melissa
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.meet-melissa > h2
+{
+    border-bottom: 6px dotted #ff910089;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    width: 20%;
+}
+.info
+{
+    display: flex;
+    background-color: #ff910061;
+    justify-content: center;
+    padding: 20px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.bio-img, .bio
+{
+
+ width: 50%;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.bio > p
+{
+    width: 80%;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.bio-img > img
+{
+   width: 500px;
+   margin-top: 2rem;
+}

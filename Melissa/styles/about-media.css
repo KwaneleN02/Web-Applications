@@ -1,0 +1,107 @@
+@media screen and (min-width: 146px) and (max-width: 822px)
+{
+
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header
+    {
+       width: 100vw;
+       height: 100vh;
+       background-image: url(../Img/about/lovers.jpeg); 
+       background-position: 100% ;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+   
+    nav
+    {
+        height: 100vh;
+    }
+
+    /* h1 in the header */
+   .about-header
+   {
+       text-align: center;
+   } 
+
+   /* body */
+
+
+   /* About Melissa */
+
+   /* about container */
+   .about-melissa
+   {
+       padding: 20px 0;
+      
+   }
+
+   .bio-intro
+   {
+       padding: 0;
+       width: 100%;
+       height: auto;
+   }
+
+   .split
+   {
+       flex-direction: column;
+       padding: 10px;
+   }
+
+   .split p
+   {
+       width: 100%;
+   }
+
+   /* Info about melissa with her img */
+
+   /* Meet Melissa */
+
+   .meet-melissa > h2
+{
+    border-bottom: 6px dotted #ff910089;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+   .info
+   {
+       flex-direction: column-reverse;
+       height: auto;
+   }
+
+   .bio-img, .bio 
+   {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+    flex-direction: column;
+   }
+   .bio > p
+   {
+       width: 100%;
+       text-align: center;
+       font-size: 16px;
+       margin: 0 0 2rem;
+   }
+   .bio-img > img
+   {
+      width: 300px;
+      margin-top: 0;
+   }
+
+   footer
+   {
+       border-top-left-radius: 20px ;
+   }
+
+
+}

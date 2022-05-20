@@ -7,6 +7,7 @@ let logo = document.querySelector('.header-logo');
 //Mobile Nav Container
 let mobileNavContainer = document.querySelector('.mobile-nav-container');
 
+console.log(openHam);
 //Event Listeners here
 
 // Hamburger Buttons
