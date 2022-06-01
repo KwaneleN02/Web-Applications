@@ -1,0 +1,50 @@
+@media screen and (min-width: 146px) and (max-width: 630px)
+{
+    .nav-wrapper
+    {
+        background-color: transparent; 
+    }
+   .contact-info
+    {
+       
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+        padding: 20px;
+        margin-top: -5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-img
+    {
+        width: 100%;
+        display: none;
+    }
+
+    form
+    {
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .contact-form
+    {
+        height: auto;
+    }
+
+     form > button 
+    {
+            width: 100%;
+    }
+
+    footer
+    {
+        background:linear-gradient( rgba(0, 0, 0, 0.891),rgba(0, 0, 0, 0.685)) ,url(../Img/slider/pexels-pixabay-280229.jpg);
+        margin-top: 0;
+        background-image: url(../Img/slider/pexels-pixabay-280229.jpg), ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}

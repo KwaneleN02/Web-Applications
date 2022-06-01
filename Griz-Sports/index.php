@@ -15,7 +15,20 @@
 <body>
   <!-- header with background -->
 
-  <?php require_once './includes/header.php' ?>
+  <header class="header-section">
+<!-- nav-->
+    <?php require_once './includes/nav.php'; ?>
+<!-- End Nav -->
+
+    <div class="center-align logo">
+      <img src="./img/ESportsLogo.png" alt="e-sports-logo">
+
+      <h4>
+        We are in the aboriginal territories of the Salish and Kalispel people. We honor the path they have always shown us in caring for this place for the generations to come.
+      </h4>
+
+    </div>  
+  </header>
 
 
 <script src="./scripts/nav.js"></script>

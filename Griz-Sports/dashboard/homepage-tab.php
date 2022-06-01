@@ -1,3 +1,3 @@
 <div id="homepage-tab">
-  <p> Hello World </p>
+  <p> homepage </p>
 </div>

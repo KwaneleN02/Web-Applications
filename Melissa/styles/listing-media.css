@@ -1,0 +1,53 @@
+@media screen and (min-width: 146px) and (max-width: 740px)
+{
+
+    nav
+    {
+       background-color: black;
+       height: auto; 
+       padding: 0;
+    }
+
+    ul
+    {
+        height: auto;
+        position: absolute;
+        background-color: #ff8f00; 
+        top: 0;
+        left: 0;
+        padding-bottom: 20px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        
+    }
+
+    ul > li 
+    {
+        height: auto;
+    }
+
+    iframe
+    {
+        margin-top: 16rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px)
+{
+    iframe
+    {
+        margin-top: .5rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px)
+{
+    iframe
+    {
+        margin-top: -0.5rem;
+    }
+}

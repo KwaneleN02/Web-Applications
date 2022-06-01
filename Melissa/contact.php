@@ -1,3 +1,6 @@
+
+<?php require 'contact-form.php'  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,16 +25,13 @@
            <ul id="nav-mobile" class="left hide-on-med-and-down">
              <li><a href="header.html">Home</a></li>
              <li><a href="About.html">About</a></li>
-             <li><a href="contact.html">Contact</a></li>
-             <li><a href="#">Current Listings</a></li>
+             <li><a href="contact.php">Contact</a></li>
+             <li><a href="listings.html">Current Listings</a></li>
              <li><a href="#">Resources</a></li>
              <li><a href="#">Featured Areas</a></li>
-             <li><a href="#">Sold Properties</a></li>
              <hr class="hide-on-down-only">
            </ul>
-           <!-- <div class="about-header"  data-aos="fade-in" data-aos-delay="800" data-aos-duration="3000" data-aos-easing="ease-in-out">
-                <img class="header-logo" src="./Img/Logo(WhiteL)-08.png" alt="MelissaShieldsLogo" style="width: 300px;">
-           </div> -->
+
          </div>
    <!-- This is for mobile Hamburger -->
    
@@ -52,26 +52,48 @@
                </ul>
    
          </nav>
-   
         
-   
        </header>
-
+      
+      
        <section class="contact-info z-depth-5">
-           <div class="contact-img">
+           <div class="contact-img" data-aos="fade-in" data-aos-delay="200" data-aos-duration="3000" data-aos-easing="ease-in-out">
                <img src="./Img/contact-01.png" alt="">
            </div>
-           <div class="contact-form">
-               <form action="" method="post">
-                   <input type="text" class="center" placeholder="Firsname">
-                   <input type="text" class="center" placeholder="Lastname">
-                   <input type="email" class="center" placeholder="Email">
-                   <textarea id="textarea1" class="materialize-textarea center" placeholder="Message..."></textarea>
-                   <a style="width:40%; margin: 0 auto; " class="waves-effect  waves-light btn">Send</a>
-               </form>
-           </div>
+           <div class="contact-form" >
 
-           
+               <form action="" method="post" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+                   <div class="input-field">
+                     <p></p>
+                     <input type="text" name="fname" class="center" placeholder="Firsname">
+                   </div>
+                   <input type="text" name="lname" class="center" placeholder="Lastname">
+                   <input type="email" name="email" class="center" placeholder="Your email">
+                   <textarea id="textarea2" name="message" class="materialize-textarea center" placeholder="Message..."></textarea>
+                   <button class="btn waves-effect waves-light center" type="submit" name="send-mail">Send
+                  </button>   
+               </form>
+               <?php $sendEmail->SendMail(); ?>
+
+            </div>
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
        </section>
        <footer>
 
@@ -101,20 +123,19 @@
               </div>
     
              <div class="right">
-              <li><a class="white-text" href="#">Home</a></li>
-              <li><a  class="white-text" href="#">About</a></li>
-              <li><a  class="white-text" href="#">Contact</a></li>
-              <li><a  class="white-text" href="#"> Listings </a></li>
+              <li><a class="white-text" href="header.html">Home</a></li>
+              <li><a  class="white-text" href="About.html">About</a></li>
+              <li><a  class="white-text" href="contact.php">Contact</a></li>
+              <li><a  class="white-text" href="listings.html"> Listings </a></li>
              </div>
     
              <div class="left">
               <li><a  class="white-text" href="#">Resources</a></li>
               <li><a  class="white-text" href="#">Featured Areas</a></li>
-              <li><a  class="white-text" href="#">Sold Properties</a></li>
              </div>
     
              <div class="email">
-              <a href="mailto:melissashieldsmt@gmail.com"> <i title="Send me an email" class="material-icons">mail</i></a>
+              <a href="contact.php"> <i title="Send me an email" class="material-icons">mail</i></a>
             </div>
     
             </ul>
@@ -124,6 +145,9 @@
             <p>Developed by <a href="#">Digital Circle</a> </p>
           </div>
       </footer>
-       
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script> M.AutoInit();</script>    
     </body>
 </html>

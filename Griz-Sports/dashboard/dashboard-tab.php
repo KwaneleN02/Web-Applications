@@ -1,3 +1,3 @@
 <div id="dashboard-tab">
-  <p> Hello World </p>
+  <p> Dashboard </p>
 </div>

@@ -34,7 +34,7 @@
         </thead>
 
         <tbody>
-        <?php foreach($teams->allTeams() as $team):?>
+        <?php foreach((array) $teams->allTeams() as $team):?>
           <tr class="center">
             <td> <strong> <?= $team['Firstname'] ?> </strong> </td>
             <td> <?= $team['Lastname'] ?> </td>

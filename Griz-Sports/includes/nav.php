@@ -5,8 +5,8 @@
          University of Montana | 
        </a>
       <ul id="nav-mobile main-menu" class="right hide-on-med-and-down">
-        <li> <a href="#Home">Home</a></li>
-        <li> <a href="./nav.php">Teams</a></li>
+        <li> <a href="../Griz-Sports/index.php">Home</a></li>
+        <li> <a href="../Griz-Sports/teams.php">Teams</a></li>
         <li> <a href="#Featured Games">Featured Games</a></li>
         <li> <a href="https://www.twitch.tv/umt_esports/">Twitch Feed</a></li>
         <li> <a href="#Events">Events</a></li>

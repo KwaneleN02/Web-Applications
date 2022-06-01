@@ -21,7 +21,10 @@ header
 {
     margin-bottom: 13rem;
 }
-
+nav
+{
+    position: fixed;
+}
 .nav-wrapper
 {
     background-color: rgba(0, 0, 0, 0.685);
@@ -57,20 +60,42 @@ header
     height: 100%;
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 form
 {
     height: 100%;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     gap: 3rem;
     justify-content: center;
 }
 
+.fail-message, .success-message
+{
+    width: 50%;
+   text-align: center;
+}
+
+form > input
+{
+    border-radius: 20px;
+}
+
 input, textarea
 {
     color: white;
+}
+
+form > button
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }

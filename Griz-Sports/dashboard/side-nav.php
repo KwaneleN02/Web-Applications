@@ -1,5 +1,5 @@
     
-    <ul class="card side-nav">
+    <ul class="side-nav z-depth-5">
         <li><a title="Home" href="#home-tab"><i class="material-icons">dashboard</i>Home</a></li>
         <li><a title="Dashboard" href="#dashboard-tab"><i class="material-icons">pie_chart</i>Dashboard</a></li>
         <li><a title="Homepage" href="#homepage-tab"><i class="material-icons">home</i>Homepage</a></li>
