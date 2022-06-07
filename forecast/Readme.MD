@@ -1,9 +1,6 @@
-Okay, so all of the files are here so far. I had to restart the app due to some complications that I faced with it. However, I think I am moving towards a positive direction now. 
+Senior Final Project: Spring 2022. 
 
-Testing: 
-
-The testing should start around May 30th ish. Timeframe might be less than that. 
-I am planning to bring this to my management at work and have them look at it and then play around with it for testing purposes. The projected test outcome is outlined below: 
+ 
 
 1. Management will signup as individuals first
 2. They will then forecast and use the application as individuals
