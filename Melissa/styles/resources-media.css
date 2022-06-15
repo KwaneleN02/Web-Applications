@@ -1,0 +1,37 @@
+@media screen and (min-width: 146px) and (max-width: 912px)
+{
+    body
+    {
+        overflow-x: hidden;
+        /* width: 100vw; */
+    }
+
+    .nav-wrapper, nav
+    {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .col
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card
+    {
+        width: 100%;
+    }
+    .dividing
+    {
+        height: auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    footer 
+    {
+        max-width: 100%;
+    }
+}

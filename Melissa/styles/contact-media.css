@@ -1,4 +1,4 @@
-@media screen and (min-width: 146px) and (max-width: 630px)
+@media screen and (min-width: 74px) and (max-width: 630px)
 {
     .nav-wrapper
     {
@@ -47,4 +47,109 @@
         background-size: cover;
     }
 
+    .fail-message
+    {
+        background-color: none;
+        color: red;
+    }
+    .success-message, .fail-message
+    {
+        width: 300px;
+        margin-top: 1.5rem;
+        position: absolute;
+        top: 37.5rem;
+    }
+
+}
+
+
+
+/* ipads */
+
+@media screen and (min-width: 768px) and (max-width: 912px)
+{
+    .contact-info
+    {
+        width: 98%;
+    }
+
+    .fail-message, .success-message
+    {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    footer
+    {
+        background:linear-gradient( rgba(0, 0, 0, 0.935),rgba(0, 0, 0, 0.93)) ,url(../Img/slider/pexels-pixabay-280229.jpg);
+        margin-top: 0;
+        background-image: url(../Img/slider/pexels-pixabay-280229.jpg), ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (width: 1024px)
+{
+   footer
+   {
+       margin-top: -1rem ;
+   }
+   
+   .fail-message
+   {
+       background-color: none;
+       color: red;
+   }
+   .success-message, .fail-message
+   {
+       width: 100%;
+       margin-top: 2rem;
+       position: absolute;
+       top: 37.5rem;
+   }
+   form
+   {
+       margin-top: -3rem;
+   }
+  .btn
+  {
+      margin-top: -3rem;
+  }
+}
+
+@media screen and (width: 1280px)
+{
+   footer
+   {
+       margin-top: -1rem ;
+   }
+   
+   .fail-message
+   {
+       background-color: none;
+       color: red;
+   }
+   .success-message, .fail-message
+   {
+       width: 100%;
+       margin-top: 7rem;
+       position: absolute;
+       top: 37.5rem;
+   }
+   form
+   {
+       margin-top: -3rem;
+   }
+  .btn
+  {
+      margin-top: -3rem;
+  }
 }

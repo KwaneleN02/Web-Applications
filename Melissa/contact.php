@@ -27,8 +27,7 @@
              <li><a href="About.html">About</a></li>
              <li><a href="contact.php">Contact</a></li>
              <li><a href="listings.html">Current Listings</a></li>
-             <li><a href="#">Resources</a></li>
-             <li><a href="#">Featured Areas</a></li>
+             <li><a href="resources.html">Resources</a></li>
              <hr class="hide-on-down-only">
            </ul>
 
@@ -44,11 +43,10 @@
                <ul class="left hide-on-large-only mobile-nav-container" style="display:none ; width: 100%;" data-aos="slide-down"data-aos-easing="ease-in-out" data-aos-duration="1000" > 
                  <li ><a href="header.html">Home</a></li>
                  <li><a href="About.html">About</a></li>
-                 <li><a href="#">Current Listings</a></li>
-                 <li><a href="#">Featured Areas</a></li>
-                 <li><a href="#">Sold Properties</a></li>
-                 <li><a href="#">Contact</a></li>
-                 <li><a href="#">Resources</a></li> 
+                 <li><a href="contact.php">Contact</a></li>
+                 <li><a href="listings.html">Current Listings</a></li>
+                <li><a href="resources.html">Resources</a></li>
+
                </ul>
    
          </nav>
@@ -78,22 +76,6 @@
 
             </div>
 
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
        </section>
        <footer>
 
@@ -127,12 +109,10 @@
               <li><a  class="white-text" href="About.html">About</a></li>
               <li><a  class="white-text" href="contact.php">Contact</a></li>
               <li><a  class="white-text" href="listings.html"> Listings </a></li>
+              <li><a  class="white-text" href="resources.html">Resources</a></li>
+
              </div>
-    
-             <div class="left">
-              <li><a  class="white-text" href="#">Resources</a></li>
-              <li><a  class="white-text" href="#">Featured Areas</a></li>
-             </div>
+
     
              <div class="email">
               <a href="contact.php"> <i title="Send me an email" class="material-icons">mail</i></a>

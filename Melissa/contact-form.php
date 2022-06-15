@@ -14,7 +14,7 @@ class ContactForm
     public function SendMail()
     {
         $failMessage = 'All Fields are requred! Please try again.' . '&nbsp' .  "	&#128542; " ; 
-        $successMsg = "Your email has been sent! I'll be in touch soon! Thank you! " . '&nbsp' . "&#128522;" ;
+        $successMsg = "Your email has been sent! Thank you! " . '&nbsp' . "&#128522;" ;
        
 
         // If a button is set
@@ -55,7 +55,7 @@ class ContactForm
 
              if (empty($lname) || empty($fname) || empty($email) || empty($message) ) 
              {
-               echo '<p class="fail-message center" style="background-color:red; color:white; border-radius: 20px; padding:10px; margin-right:auto; margin-left:auto " >'. $failMessage . '</p>';
+               echo '<p class="fail-message center red-text">'. $failMessage . '</p>';
                  
              } 
         }
