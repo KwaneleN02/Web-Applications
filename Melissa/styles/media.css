@@ -1,6 +1,10 @@
 @media screen and (min-width: 146px) and (max-width: 740px)
 {
-
+body 
+{
+    width: 100vw;
+    overflow-x: hidden;
+}
     #nav-mobile > .open-ham,  #nav-mobile > .close-ham
     {
         position: fixed;
@@ -31,6 +35,11 @@
         gap: 3rem;
     }
 
+    .broker, .listing-agent, .seller-agent
+    {
+        width: 100%;
+    }
+
 
     .carousel-button.prev 
     {
@@ -45,8 +54,9 @@
     .featured-areas
     {
         padding: 20px !important;
-        width: 100vw;
+        width: 100%;
         display: flex;
+        flex-direction: column;
     }    
     .featured-cards
     {
