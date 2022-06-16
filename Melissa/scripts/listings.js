@@ -1,6 +1,6 @@
 const openHam = document.querySelector('.open-ham');
 const closeHam = document.querySelector('.close-ham');
-console.log(closeHam);
+
 const navWrapper = document.querySelector('.menu');
 
 

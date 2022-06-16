@@ -99,3 +99,13 @@ form > button
     margin-left: auto;
     margin-right: auto;
 }
+
+footer
+{
+    background:linear-gradient( rgba(0, 0, 0, 0.935),rgba(0, 0, 0, 0.93)) ,url(../Img/slider/pexels-pixabay-280229.jpg);
+    margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}

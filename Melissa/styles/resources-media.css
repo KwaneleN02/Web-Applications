@@ -1,15 +1,23 @@
 @media screen and (min-width: 146px) and (max-width: 912px)
 {
-    body
+  
+    nav
     {
-        overflow-x: hidden;
-        /* width: 100vw; */
+        width: 99vw;
     }
 
-    .nav-wrapper, nav
+    .nav-wrapper
     {
-        max-width: 100%;
-        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .mobile-nav-container
+    {
+        position: absolute;
+        left: 0;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.697);
     }
 
     .col

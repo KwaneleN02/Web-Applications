@@ -17,6 +17,10 @@ body
 
 }
 
+.open-ham, .close
+{
+    display: none;
+}
 nav
 {
     width: 100%;

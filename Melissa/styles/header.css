@@ -217,6 +217,8 @@ li a::after
     background-color: #ff910035;
     padding: 20px;
     border-radius: 15px;
+    width: 50%;
+    height: 20%;
 
 }
 

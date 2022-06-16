@@ -130,10 +130,16 @@ nav
 
 .bio > p
 {
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin-top: 3rem;
     font-size: 20px;
+}
+
+.bio >  h4
+{
+    font-weight: 700;
+    border-bottom: 6px dotted #ffff;
 }
 
 .bio-img > img
