@@ -1,4 +1,0 @@
-$(function()
-{
-  $('.tab-items').tabs();
-});
